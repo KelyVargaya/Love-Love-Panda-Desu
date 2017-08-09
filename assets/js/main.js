@@ -6,8 +6,8 @@ var pictures = ["assets/img/a1.jpg",
 var PicturesPanda = document.getElementById("PicturesPanda");
 
 for (var i = 0; i < pictures.length; i++) {
-    var LovePanda = document.createElement("img");
-    LovePanda.src = pictures[i];
-    LovePanda.setAttribute("class","bordes");
-    allPictures.appendChild(LovePanda);
+    var panda = document.createElement("img");
+    panda.src = pictures[i];
+    panda.setAttribute("class","bordes");
+    PicturesPanda.appendChild(panda);
 }
